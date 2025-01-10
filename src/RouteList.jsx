@@ -25,20 +25,26 @@ const RouteList = createBrowserRouter([
   {
     path: "/posts",
     element: (
-      <ProtectedRoute element={<AllPosts />}/>
+      <ProtectedRoute>
+        <AllPosts />
+      </ProtectedRoute>
         
     ),
   },
   {
     path: "/add",
     element: (
-      <ProtectedRoute element={<AddPosts />}/>
+      <ProtectedRoute>
+        <AddPosts />
+      </ProtectedRoute>
     ),
   },
   {
     path: "/manage",
     element: (
-      <ProtectedRoute element={<ManagePosts />}/>
+      <ProtectedRoute>
+        <ManagePosts />
+      </ProtectedRoute>
     ),
   },
   {

@@ -2,6 +2,7 @@
 
 This project was made for my Client Side Programming subject exam
 The web still has many room for improvement!
+THIS WEB ISN'T RESPONSIVE YET!! DON'T OPEN WITH PHONE!!
 
 In this project, I aim to make complete crud and auth process with ReactJS. For the full experience of that process, I use MongoDB as database and made my own API
 

@@ -11,7 +11,7 @@ export default function Card({title, content, author, location, height}) {
         <p>Location: {location}</p>
         <p>Water Level: {height}</p>
         <hr className="bg-black p-[0.4px] my-2"/>
-        <p>{content}</p>
+        <p className="line-clamp-2">{content}</p>
       </div>
     </div>
   );
